@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 from scipy.ndimage import rotate
 
+
 class load_images:
     def __init__(self, image_path):
         self.image_path = image_path
@@ -49,3 +50,6 @@ class load_images:
                 print('{} is not readable')
             
 
+
+class process_images:
+    def __int__(self, load_images)
